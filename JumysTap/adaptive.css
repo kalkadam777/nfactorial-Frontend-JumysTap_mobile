@@ -1,0 +1,269 @@
+/* Large Devices, Wide Screens */
+@media only screen and (max-width: 1200px) {
+}
+
+/* Medium Devices, Desktops */
+@media only screen and (max-width: 992px) {
+  /* */
+}
+
+/* Small Devices, Tablets */
+@media only screen and (max-width: 768px) {
+  /* */
+}
+
+/* Extra Small Devices, Phones */
+@media only screen and (max-width: 480px) {
+  .header {
+    display: flex;
+    /* justify-content: space-between; */
+    /* align-items: center; */
+    padding: 12px 24px 12px 24px;
+    gap: 92px;
+  }
+  .non_active {
+    display: none;
+  }
+
+  .container {
+    width: 360px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    /* height: 618px; */
+    padding: 32px 24px 32px 24px;
+    gap: 54px;
+  }
+
+  .right_content {
+    order: -1;
+    display: flex;
+    /* justify-content: center; */
+    /* height: auto; */
+    /* align-items: center; */
+    /* padding-right: 35px; */
+  }
+
+  .left_content {
+    display: flex;
+    height: 290px;
+    width: 312px;
+    flex-direction: column;
+    align-items: center;
+    gap: 48px;
+  }
+
+  .main_text {
+    width: 312px;
+    font-family: "Kanit", sans-serif;
+    font-weight: 700;
+    font-size: 32px;
+    line-height: 38.4px;
+    letter-spacing: 0em;
+    text-align: center;
+  }
+
+  .description_text {
+    width: 312px;
+    font-family: Inter;
+    line-height: 18px;
+    letter-spacing: 0em;
+    font-weight: 500;
+    font-size: 14px;
+    text-align: center;
+  }
+
+  .main_image {
+    display: flex;
+    width: 312px;
+    height: 210px;
+    border-radius: 32px;
+    flex-shrink: 0;
+  }
+
+  .main_content {
+    display: flex;
+    flex-direction: column;
+    height: auto;
+    width: 360px;
+    padding: 54px 24px 54px 24px;
+    gap: 54px;
+    align-items: center;
+  }
+
+  .top_content {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    /* align-items: center; */
+    /* align-self: center; */
+    /* gap: 12px; */
+  }
+  .bottom_content {
+    display: flex;
+    flex-direction: column;
+    align-items: baseline;
+    width: auto;
+    /* height: 440px; */
+    justify-content: center;
+    align-items: center;
+    align-content: center;
+    align-self: center;
+    padding-left: 24px;
+    gap: 40px;
+  }
+
+  .first {
+    gap: 24px;
+  }
+
+  .second {
+    gap: 24px;
+  }
+
+  .third {
+    gap: 24px;
+  }
+
+  .large_text {
+    font-family: Kanit;
+    font-size: 32px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 56px;
+    text-align: center;
+  }
+
+  .small_text {
+    font-family: Inter;
+    font-size: 12px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 16px;
+  }
+  .first_image {
+    width: 23.052px;
+    height: 42px;
+  }
+  .first_text {
+    font-size: 20px;
+  }
+
+  .first2_text {
+    font-size: 14px;
+  }
+
+  .second_image {
+    width: 31.696px;
+    height: 42px;
+  }
+
+  .third_image {
+    width: 31.871px;
+    height: 42px;
+  }
+
+  .main2_text {
+    font-size: 24px;
+    width: 312px;
+    text-align: center;
+  }
+
+  .description2_text {
+    font-size: 14px;
+    text-align: center;
+    width: 312px;
+  }
+
+  .InputField {
+    display: flex;
+    padding: 54px 24px 54px 24px;
+    justify-content: center;
+    align-items: center;
+    gap: 32px;
+  }
+
+  .textField_content {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .search_field {
+    padding: 13px 0px 13px 13px;
+    width: 312px;
+    text-align: center;
+    gap: 12px;
+  }
+
+  .search_icon {
+    width: 24px;
+    height: 24px;
+    position: absolute;
+    top: 25px;
+    transform: translateY(-50%);
+    /* left: 10px; */
+  }
+  .container_2 {
+    display: flex;
+    flex-direction: column;
+    padding: 64px 24px 64px 24px;
+    justify-content: center;
+    align-items: center;
+  }
+  .left_image {
+    width: 352.827px;
+    height: 233.333px;
+  }
+
+  .main_text2 {
+    font-size: 24px;
+  }
+
+  .description_text2 {
+    font-size: 14px;
+    width: 312px;
+  }
+
+  .footer {
+    display: flex;
+    flex-direction: column;
+    align-items: baseline;
+    width: 360px;
+    padding: 32px 24px 32px 24px;
+    gap: 40px;
+  }
+
+  .left_footer {
+    display: flex;
+    flex-direction: column;
+    gap: 16px;
+    align-items: flex-start;
+  }
+
+  .right_footer {
+    display: flex;
+    align-items: flex-start;
+    gap: 40px;
+  }
+
+  .twitter {
+    padding-left: 0px;
+    position: relative;
+    left: 10px;
+  }
+
+  .instagram {
+    position: relative;
+    left: 10px;
+  }
+
+  .tag_2 {
+    padding-bottom: 20px;
+  }
+}
+
+/* Custom, iPhone Retina */
+@media only screen and (max-width: 320px) {
+  /* */
+}
